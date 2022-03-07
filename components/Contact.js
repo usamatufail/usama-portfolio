@@ -1,5 +1,5 @@
-import React from "react";
-import userData from "@constants/data";
+import React from 'react';
+import userData from '@constants/data';
 
 export default function Contact() {
   return (
@@ -141,9 +141,9 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form className="form rounded-lg bg-white p-4 flex flex-col">
-            <label htmlFor="name" className="text-sm text-gray-600 mx-4">
-              {" "}
+          <form className="form rounded-lg bg-white p-4 flex flex-col dark:bg-gray-800 antialiased">
+            <label htmlFor="name" className="text-sm mx-4 dark:text-gray-50">
+              {' '}
               Your Name
             </label>
             <input
@@ -151,7 +151,10 @@ export default function Contact() {
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
             />
-            <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
+            <label
+              htmlFor="email"
+              className="text-sm dark:text-gray-50 mx-4 mt-4"
+            >
               Email
             </label>
             <input
@@ -161,7 +164,7 @@ export default function Contact() {
             />
             <label
               htmlFor="message"
-              className="text-sm text-gray-600 mx-4 mt-4"
+              className="text-sm dark:text-gray-50 mx-4 mt-4"
             >
               Message
             </label>
